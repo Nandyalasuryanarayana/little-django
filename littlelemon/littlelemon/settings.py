@@ -138,6 +138,9 @@ STATICFILES_DIRS = [
 
 ]
 
+# Directory where collectstatic will collect all static files
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 # mediafiles
 MEDIA_URL = '/media/'
 
