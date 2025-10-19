@@ -30,4 +30,4 @@ jobs:
                 pip-audit -r ./littlelemon/requirements.txt
             - name: static file
               run: |
-                python ./littlelemon/manage.py collectstatic
+                python ./littlelemon/manage.py collectstatic --noinput
