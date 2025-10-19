@@ -13,7 +13,10 @@ jobs:
             - uses: actions/setup-python@v6
               with:
                 python-version: '3.13'
+            - name: venv
+              run: |
+               
             - name: dependencies
               run: |
-                python pip install -m upgrade pip
+                python -m pip install --upgrade pip
                 pip install -r requirements
