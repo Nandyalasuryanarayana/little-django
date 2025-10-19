@@ -24,4 +24,8 @@ jobs:
               run: |
                 pip install flake8
                 flake8 ./littlelemon
+            - name: security scans
+              run: | 
+                pip install pip-audit
+                pip-audit ./littlelemon
 
