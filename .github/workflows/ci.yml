@@ -19,4 +19,4 @@ jobs:
                 pip install -r ./littlelemon/requirements.txt
             - name: test
               run: |
-                python manage.py test
+                python ./littlelemon/manage.py test
