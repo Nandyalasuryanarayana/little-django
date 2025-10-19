@@ -23,5 +23,5 @@ jobs:
             - name: lint checks
               run: |
                 pip install flake8
-                python flake8 .
+                python flake8 ./littlelemon/littlelemon
 
