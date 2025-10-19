@@ -28,4 +28,8 @@ jobs:
               run: | 
                 pip install pip-audit
                 pip-audit -r ./littlelemon/requirements.txt
+            - name: build tool
+              run: |
+                pip install build
+                python -m build
 
