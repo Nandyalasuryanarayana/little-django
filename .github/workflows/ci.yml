@@ -27,5 +27,5 @@ jobs:
             - name: security scans
               run: | 
                 pip install pip-audit
-                pip-audit 
+                pip-audit -r ./littlelemon/requirements.txt
 
