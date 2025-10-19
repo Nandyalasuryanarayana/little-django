@@ -122,30 +122,32 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/4.1/topics/i18n/
-
-LANGUAGE_CODE = "en-us"
-TIME_ZONE = "UTC"
-USE_I18N = True
-USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.1/howto/static-files/
-
-# The settings for static files have been updated for the Graded assessment
-STATIC_URL = "restaurant/static/"
-
-STATICFILES_DIRS = [
-    "restaurant/static"
-]
-
 # Default primary key field type
-# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# # Internationalization
+# # https://docs.djangoproject.com/en/4.1/topics/i18n/
+
+# LANGUAGE_CODE = "en-us"
+# TIME_ZONE = "UTC"
+# USE_I18N = True
+# USE_TZ = True
+
+
+# # Static files (CSS, JavaScript, Images)
+# # https://docs.djangoproject.com/en/4.1/howto/static-files/
+
+# # The settings for static files have been updated for the Graded assessment
+# STATIC_URL = "restaurant/static/"
+
+# STATICFILES_DIRS = [
+#     "restaurant/static"
+# ]
+
+# # Default primary key field type
+# # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
+
+# DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # """
 # Django settings for littlelemon project.
 
