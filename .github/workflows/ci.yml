@@ -20,3 +20,8 @@ jobs:
             - name: test
               run: |
                 python ./littlelemon/manage.py test
+            - name: lint checks
+              run: |
+                pip install flake8
+                python flake8 ./littlelemon
+                
